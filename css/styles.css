@@ -1,0 +1,48 @@
+html  {
+	overflow: hidden;
+}
+
+body  {
+	margin: 0;
+	padding:0;
+}
+
+.logo  {
+	/*margin-right: 350px;*/
+}
+
+.logo-img  {
+	margin-left:20px;
+	height: 20px;
+	padding-top: 15px;	
+	display: inline-block;
+	padding-bottom: 45px;
+	/*position: absolute;*/
+	/*margin-bottom: 10px;*/
+}
+
+.nav  {
+	height: auto;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.logo-text {
+	display: inline-block;
+	color: white;
+	/*position: relative;
+	top:5px;
+	left:70px;*/
+}
+
+.navbar-nav>li>a {
+	font-size: 20px;
+	color:#fff !important;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.navbar-nav>.active>a  {
+	color:#000;
+	background-color: #0d557d !important;
+}
