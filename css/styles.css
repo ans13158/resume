@@ -44,8 +44,56 @@ body {
     height: 62px;
 }
 .section1  {
-    margin-top:20%;
+    margin-top:2%;
 }
+.section1-bg  {
+    background-image: url(../images/index/hero-banner.png);
+    background-repeat: no-repeat;
+    background-position:62% 50%;
+    background-size:inherit;
+    height: 650px;
+    opacity: 0.75;
+}
+    .heading-section1  {
+        position: relative;
+        top:15%;
+        text-align: justify;
+        width: 100%;
+        /*margin-top: -5%;
+        margin-bottom: 2%;*/
+    }
+    .heading-section1 h1  {
+        font-size: 34px;
+        font-family: 'Lato',sans-serif;
+        font-weight: 100;
+        color:#4d7194;
+        margin-bottom: 0;
+        /*padding-left: 2%;*/
+    }
+    .subHeading-section1 h3  {
+        font-size: 24px;
+        font-family: 'Lato',sans-serif;
+        font-weight: 400;
+        color:#468ae5;
+        /*padding-left: 6%;*/
+    }
+    .subHeading-section1  {
+        position: relative;
+        top:30%;
+        width: 100%;
+        text-align: justify;
+    }
+    .whyUs {
+        visibility: hidden;
+        position: relative;
+        top:20%;
+    }
+    .whyUs-points  {
+        font-size: 22px;
+        /*font-family: 'Lato',sans-serif;*/
+        font-weight: lighter;
+        color:#181819;
+    }
 
 @media screen and (min-width:770px) {
     .navbar-nav>li>a {
@@ -77,7 +125,66 @@ body {
         padding-bottom: 45px;
     }
     .section1  {
-        margin-top:8%;
+        margin-top:4%;
+    }
+    .section1-bg  {
+        background-image: url(../images/index/hero-banner.png);
+        background-repeat: no-repeat;
+        background-position: left ;
+        height: 500px;
+        opacity: 1;
+    }
+    .heading-section1  {
+        position: relative;
+        top:12%;
+        text-align: justify;
+        /*margin-top: -5%;
+        margin-bottom: 2%;*/
+    }
+    .heading-section1 h1  {
+        font-size: 42px;
+        font-family: 'Lato',sans-serif;
+        font-weight: 100;
+        color:#4d7194;
+        margin-bottom: 0;
+        padding-left: 4%;
+    }
+    .subHeading-section1 h3  {
+        font-size: 32px;
+        font-family: 'Lato',sans-serif;
+        font-weight: 400;
+        color:#468ae5;
+        padding-left: 11%;
+    }
+    .subHeading-section1  {
+        position: relative;
+        top:15%;
+        width: 40%;
+        text-align: justify;
+    }
+    .whyUs {
+        position: relative;
+        top:20%;
+        visibility: visible;
+    }
+    .whyUs-points  {
+        font-size: 22px;
+        /*font-family: 'Lato',sans-serif;*/
+        font-weight: lighter;
+        color:#181819;
+        padding-left:4%;
+    }
+    .get-started  {
+        position: relative;
+        top:25%;
+        padding-left: 15%;
+        /*left:12%;*/
+    }
+    .button-get-started  {
+        background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
+        font-size: 26px;
+        color:#fff;
+        padding: 10px 20px 10px 20px;
     }
 
 }
