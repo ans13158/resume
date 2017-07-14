@@ -1,0 +1,54 @@
+.section1-bg  {
+        background-image: url(../images/index/hero-banner.png);
+        background-repeat: no-repeat;
+        background-position: 20% 35% ;
+        height: 500px;
+        opacity: 1;
+    }
+    .heading-section1  {
+        position: relative;
+        top:13%;
+        text-align: justify;
+    }
+    .heading-section1 h1  {
+        font-size: 42px;
+        font-family: 'Lato',sans-serif;
+        font-weight: 600;
+        color:#4d7194;
+        padding-left: 4%;
+    }
+    .subHeading-section1 h3  {
+        font-size: 32px;
+        font-family: 'Lato',sans-serif;
+        font-weight: 400;
+        color:#468ae5;
+        padding-left: 11%;
+    }
+    .subHeading-section1  {
+        position: relative;
+        top:18%;
+        width: 40%;
+        text-align: justify;
+    }
+    .whyUs {
+        position: relative;
+        top:23%;
+        visibility: visible;
+    }
+    .whyUs-points  {
+        font-size: 22px;
+        font-weight: lighter;
+        color:#181819;
+        padding-left:6%;
+    }
+    .get-started  {
+        position: relative;
+        top:30%;
+        padding-left: 15%;  
+    }
+    .button-get-started  {
+        background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
+        font-size: 26px;
+        color:#fff;
+        padding: 10px 20px 10px 20px;
+    }

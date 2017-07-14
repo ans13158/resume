@@ -2,29 +2,33 @@
 
 /*<!--------------------------------------GENERAL STYLING----------------------------------------->*/
 
-
 body {
     margin: 0;
     padding: 0;
 }
+
 .logo-img {
     height: 20px;
     padding-top: 15px;
     display: inline-block;
     padding-bottom: 45px;
 }
-.navbar  {
+
+.navbar {
     border-radius: 0;
     margin-bottom: 0;
     /*position: fixed;*/
 }
+
 .nav {
     height: 100%;
 }
+
 .logo-text {
     display: inline-block;
     color: white;
 }
+
 .navbar-nav>li>a {
     font-size: 22px;
     color: #fff !important;
@@ -32,409 +36,881 @@ body {
     font-family: 'Tangerine', sans-serif;
     padding-top: 20px;
 }
+
 .navbar-nav>li>a:hover {
     color: #000;
     background-color: #0d557d !important;
     height: 62px;
     margin-bottom: 0;
 }
+
 .navbar-nav>.active>a {
     color: #000;
     background-color: #0d557d !important;
     height: 62px;
 }
-.section1  {
-    margin-top:0%;
+
+.section1 {
+    margin-top: 0%;
 }
+
 .section1-bg  {
-    background-image: url(../images/index/hero-banner-mob2.png);
+    background-image: url(../images/index/hero-banner-mob.png);
     background-repeat: no-repeat;
-    background-position:62% 23%;
+    background-position:15% 23%;
     background-size:inherit;
     height: 650px;
     opacity: 0.95;
 }
+
+.heading-section1  {
+    position: relative;
+    top:12%;
+    text-align: justify;
+    width: 100%;
+}
+
+.heading-section1 h1  {
+    font-size: 42px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    color:#4d7194;
+    margin-bottom: 0;
+    padding-left: 5%;
+}
+
+.subHeading-section1  {
+    position: relative;
+    top:18%;
+    width: 100%;
+    text-align: justify;
+}
+
+.subHeading-section1 h3  {
+    font-size: 27px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    color:#0a508c;
+    padding-left: 5%;
+}
+
+.whyUs {
+    position: relative;
+    top:26%;
+    visibility: visible;
+}
+
+.whyUs-points  {
+   font-size: 22px;
+   font-weight: lighter;
+   color:#181819;
+   padding-left:6%;
+}
+
+.get-started  {
+    position: relative;
+    top:32%;
+    padding-left: 18%;
+}
+
+.button-get-started  {
+    background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
+    font-size: 26px;
+    font-weight: 600;
+    color:#fff;
+    padding: 10px 20px 10px 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 359px)  {
+    .section1-bg  {
+        background-image: url(../images/index/hero-banner-mob2.png);
+        background-repeat: no-repeat;
+        background-position:62% 29%;
+        background-size:inherit;
+        height: 650px;
+        opacity: 0.85;
+        filter: alpha(opacity=85);
+    }
+
     .heading-section1  {
         position: relative;
-        top:8%;
+        top:10%;
         text-align: justify;
         width: 100%;
-        /*margin-top: -5%;
-        margin-bottom: 2%;*/
     }
+
     .heading-section1 h1  {
-        font-size: 34px;
+        font-size: 28px;
         font-family: 'Lato',sans-serif;
-        font-weight: 100;
+        font-weight: 400;
         color:#4d7194;
         margin-bottom: 0;
-        /*padding-left: 2%;*/
+        padding-left: 2%;
     }
+
+    .subHeading-section1  {
+        position: relative;
+        top:19%;
+        width: 100%;
+        text-align: justify;
+    }
+
     .subHeading-section1 h3  {
-        font-size: 27px;
+        font-size: 24px;
         font-family: 'Lato',sans-serif;
         font-weight: 400;
         color:#0a508c;
-        /*padding-left: 6%;*/
+        padding-left: 2%;
     }
+
+    .whyUs  {
+        visibility: hidden;
+    }
+
+    .get-started  {
+        position: relative;
+        top:4%;
+        padding-left: 24%;
+    }
+
+    .button-get-started  {
+        background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
+        font-size: 22px;
+        font-weight: 600;
+        color:#fff;
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px)  {
+    .section1-bg  {
+        background-image: url(../images/index/hero-banner-mob2.png);
+        background-position:62% 29%;
+        opacity: 0.85;
+        filter: alpha(opacity=85);
+    }
+
+    .heading-section1  {
+        position: relative;
+        top:10%;
+    }
+
+    .heading-section1 h1  {
+        font-size: 28px;
+        padding-left: 2%;
+    }
+
     .subHeading-section1  {
         position: relative;
-        top:14%;
+        top:22%;
         width: 100%;
         text-align: justify;
     }
-    .whyUs {
-        visibility: visible;
+
+    .subHeading-section1 h3  {
+        font-size: 24px;
+        padding-left: 2%;
     }
+
+    .whyUs  {
+        visibility: hidden;
+    }
+
     .get-started  {
+        position: relative;
+        top:10%;
+        padding-left: 28%;
+    }
+
+    .button-get-started  {
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 384px)  {
+    .section1-bg  {
+        background-image: url(../images/index/hero-banner-mob2.png);
+        background-position:62% 29%;
+        opacity: 0.85;
+        filter: alpha(opacity=85);
+    }
+
+    .heading-section1  {
+        position: relative;
+        top:10%;
+    }
+
+    .heading-section1 h1  {
+        font-size: 28px;
+        padding-left: 2%;
+    }
+
+    .subHeading-section1  {
+        position: relative;
+        top:22%;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .subHeading-section1 h3  {
+        font-size: 24px;
+        padding-left: 2%;
+    }
+
+    .whyUs  {
+        visibility: hidden;
+    }
+
+    .get-started  {
+        position: relative;
+        top:10%;
+        padding-left: 30%;
+    }
+
+    .button-get-started  {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (min-width: 412px) and (max-width: 480px)  {
+    .section1-bg  {
+        background-image: url(../images/index/hero-banner-mob2.png);
+        background-position:62% 29%;
+        opacity: 0.85;
+        filter: alpha(opacity=85);
+    }
+
+    .heading-section1  {
+        position: relative;
+        top:10%;
+    }
+
+    .heading-section1 h1  {
+        font-size: 28px;
+        padding-left: 2%;
+    }
+
+    .subHeading-section1  {
+        position: relative;
+        top:22%;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .subHeading-section1 h3  {
+        font-size: 24px;
+        padding-left: 2%;
+    }
+
+    .whyUs  {
+        visibility: hidden;
+    }
+
+    .get-started  {
+        position: relative;
+        top:10%;
+        padding-left: 32%;
+    }
+
+    .button-get-started  {
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 533px) and (max-width: 568px)  {
+    .section1-bg  {
+        background-image: url(../images/index/hero-banner-mob2.png);
+        background-position:63% 29%;
+        opacity: 0.85;
+        filter: alpha(opacity=85);
+    }
+
+    .heading-section1  {
         position: relative;
         top:14%;
-        padding-left: 26%;
-        /*left:22%;*/
-    }
-    .button-get-started  {
-        background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
-        font-size: 26px;
-        color:#fff;
-        padding: 10px 20px 10px 20px;
-    }
-    @media (min-width: 320px) and (max-width: 359px)  {
-
-        .get-started  {
-            position: relative;
-            top:5%;
-            padding-left: 23%;
-            /*left:22%;*/
-        }
-        .whyUs  {
-            visibility: hidden;
-        }
-        .button-get-started  {
-            background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
-            font-size: 26px;
-            color:#fff;
-            padding: 10px 20px 10px 20px;
-        }
-    }
-    @media (min-width: 360px) and (max-width: 375px)  {
-         .subHeading-section1  {
-            position: relative;
-            top:17%;
-            width: 100%;
-            text-align: justify;
-        }
-        .get-started  {
-            position: relative;
-            top:17%;
-            padding-left: 27%;
-            /*left:22%;*/
-        }
-        .whyUs  {
-            visibility: hidden;
-        }
-        .button-get-started  {
-            background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
-            font-size: 26px;
-            color:#fff;
-            padding: 10px 20px 10px 20px;
-        }
     }
 
-    @media (min-width: 376px) and (max-width: 384px)  {
-        .subHeading-section1  {
-            position: relative;
-            top:17%;
-            width: 100%;
-            text-align: justify;
-        }
-        .get-started  {
-            position: relative;
-            top:18%;
-            padding-left: 29%;
-            /*left:22%;*/
-        }
-
-        .button-get-started  {
-            background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
-            font-size: 26px;
-            color:#fff;
-            padding: 10px 20px 10px 20px;
-        }
-    }
-
-    @media (min-width: 385px) and (max-width: 414px)  {
-        .subHeading-section1  {
-            position: relative;
-            top:17%;
-            width: 100%;
-            text-align: justify;
-        }
-        .get-started  {
-            position: relative;
-            top:18%;
-            padding-left: 31%;
-            /*left:22%;*/
-        }
-        .whyUs  {
-            visibility: hidden;
-        }
-        .button-get-started  {
-            background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
-            font-size: 26px;
-            color:#fff;
-            padding: 10px 20px 10px 20px;
-        }
-    }
-@media (min-width:600px) and (max-width: 639px)  {
-    .section1-bg  {
-        background-image: url(../images/index/hero-banner.png);
-        background-repeat: no-repeat;
-        background-position: 65% 23% ;
-        /*height: 500px;*/
-        opacity: 0.85;
-    }
-    .heading-section1  {
-        position: relative;
-        top:9%;
-        text-align: center;
-        /*margin-top: -5%;
-        margin-bottom: 2%;*/
-    }
     .heading-section1 h1  {
-        font-size: 42px;
-        font-family: 'Lato',sans-serif;
-        font-weight: 600;
-        color:#4d7194;
-        margin-bottom: 0;
-        padding-left: 4%;
+        font-size: 28px;
+        padding-left: 12%;
     }
-    .subHeading-section1 h3  {
-        font-size: 32px;
-        font-family: 'Lato',sans-serif;
-        font-weight: 400;
-        color:#468ae5;
-        padding-left: 5%;
-    }
+
     .subHeading-section1  {
         position: relative;
-        top:17%;
-        /*width: 40%;*/
-        text-align: center;
+        top:26%;
+        width: 100%;
+        text-align: justify;
     }
-    .whyUs {
-       visibility: hidden;
-    }
-    
-    .get-started  {
-        position: relative;
-        top:20%;
-        padding-left: 35%;
-        /*left:12%;*/
-    }
-    .button-get-started  {
-        background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
-        font-size: 26px;
-        color:#fff;
-        padding: 10px 20px 10px 20px;
-    }
-}
-@media (min-width:640px) and (max-width: 760px)  {
-    .section1-bg  {
-        background-image: url(../images/index/hero-banner.png);
-        background-repeat: no-repeat;
-        background-position: 65% 23% ;
-        /*height: 500px;*/
-        opacity: 0.85;
-    }
-    .heading-section1  {
-        position: relative;
-        top:9%;
-        text-align: center;
-        /*margin-top: -5%;
-        margin-bottom: 2%;*/
-    }
-    .heading-section1 h1  {
-        font-size: 42px;
-        font-family: 'Lato',sans-serif;
-        font-weight: 600;
-        color:#4d7194;
-        margin-bottom: 0;
-        padding-left: 4%;
-    }
+
     .subHeading-section1 h3  {
-        font-size: 32px;
-        font-family: 'Lato',sans-serif;
-        font-weight: 400;
-        color:#468ae5;
-        padding-left: 5%;
+        font-size: 24px;
+        padding-left: 2%;
     }
-    .subHeading-section1  {
-        position: relative;
-        top:17%;
-        /*width: 40%;*/
-        text-align: center;
+
+    .whyUs  {
+        visibility: hidden;
     }
-    .whyUs {
-       visibility: hidden;
-    }
-    
+
     .get-started  {
         position: relative;
-        top:20%;
-        padding-left: 37%;
-        /*left:12%;*/
+        top:22%;
+        padding-left: 38%;
     }
+
     .button-get-started  {
-        background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
-        font-size: 26px;
-        color:#fff;
-        padding: 10px 20px 10px 20px;
-    }
-}
-@media (min-width: 768px) and (max-width: 800px)  {
- .section1-bg  {
-        background-image: url(../images/index/hero-banner.png);
-        background-repeat: no-repeat;
-        background-position: 45% 84% ;
-        /*height: 500px;*/
-        opacity: 0.85;
-    }
-    .heading-section1  {
-        position: relative;
-        top:9%;
-        text-align: center;
-        /*margin-top: -5%;
-        margin-bottom: 2%;*/
-    }
-    .heading-section1 h1  {
-        font-size: 42px;
-        font-family: 'Lato',sans-serif;
-        font-weight: 600;
-        color:#4d7194;
-        margin-bottom: 0;
-        padding-left: 4%;
-    }
-    .subHeading-section1 h3  {
-        font-size: 32px;
-        font-family: 'Lato',sans-serif;
-        font-weight: 400;
-        color:#468ae5;
-        padding-left: 5%;
-    }
-    .subHeading-section1  {
-        position: relative;
-        top:17%;
-        /*width: 40%;*/
-        text-align: center;
-    }
-    .whyUs {
-       visibility: hidden;
-    }
-    
-    .get-started  {
-        position: relative;
-        top:20%;
-        padding-left: 37%;
-        /*left:12%;*/
-    }
-    .button-get-started  {
-        background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
-        font-size: 26px;
-        color:#fff;
-        padding: 10px 20px 10px 20px;
-    }
-}   
-}
-/*@media screen and (min-width:810px) {
-    .navbar-nav>li>a {
         font-size: 22px;
-        color: #fff !important;
-        font-family: 'Lato', sans-serif;
-        padding-top: 20px;
-        margin-right: 20px;
+        font-weight: 600;
     }
-    .navbar-nav>.active>a {
-        color: #000;
-        background-color: #0d557d !important;
-        height: 62px;
-    }
-    .navbar-nav>li>a:hover {
-        color: #000;
-        background-color: #0d557d !important;
-        height: 62px;
-        margin-bottom: 0;
-    }
-    .logo {
-        margin-right: 30px;
-    }
-    .logo-img {
-        margin-left: 50px;
-        height: 20px;
-        padding-top: 15px;
-        display: inline-block;
-        padding-bottom: 45px;
-    }
-    .section1  {
-        margin-top:4%;
-    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 639px)  {
     .section1-bg  {
-        background-image: url(../images/index/hero-banner.png);
-        background-repeat: no-repeat;
-        background-position: left ;
-        height: 500px;
-        opacity: 1;
+        background-image: url(../images/index/hero-banner-mob2.png);
+        background-position:65% 29%;
+        opacity: 0.85;
+        filter: alpha(opacity=85);
     }
+
     .heading-section1  {
         position: relative;
-        top:12%;
-        text-align: justify;
-        margin-top: -5%;
-        margin-bottom: 2%;
+        top:14%;
     }
+
     .heading-section1 h1  {
-        font-size: 42px;
-        font-family: 'Lato',sans-serif;
-        font-weight: 600;
-        color:#4d7194;
-        margin-bottom: 0;
-        padding-left: 4%;
+        font-size: 28px;
+        padding-left: 16%;
     }
-    .subHeading-section1 h3  {
-        font-size: 32px;
-        font-family: 'Lato',sans-serif;
-        font-weight: 400;
-        color:#468ae5;
-        padding-left: 11%;
-    }
+
     .subHeading-section1  {
         position: relative;
-        top:15%;
-        width: 40%;
+        top:29%;
+        width: 100%;
         text-align: justify;
     }
+
+    .subHeading-section1 h3  {
+        font-size: 24px;
+        padding-left: 2%;
+    }
+
+    .whyUs  {
+        visibility: hidden;
+    }
+
+    .get-started  {
+        position: relative;
+        top:28%;
+        padding-left: 36%;
+    }
+
+    .button-get-started  {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 642px)  {
+    .section1-bg  {
+        background-image: url(../images/index/hero-banner-mob2.png);
+        background-position:65% 29%;
+        opacity: 0.85;
+        filter: alpha(opacity=85);
+    }
+
+    .heading-section1  {
+        position: relative;
+        top:14%;
+    }
+
+    .heading-section1 h1  {
+        font-size: 28px;
+        padding-left: 16%;
+    }
+
+    .subHeading-section1  {
+        position: relative;
+        top:27%;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .subHeading-section1 h3  {
+        font-size: 24px;
+        padding-left: 8%;
+    }
+
+    .whyUs  {
+        visibility: hidden;
+    }
+
+    .get-started  {
+        position: relative;
+        top:28%;
+        padding-left: 38%;
+    }
+
+    .button-get-started  {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (min-width: 732px) and (max-width: 736px)  {
+    .section1-bg  {
+        background-image: url(../images/index/hero-banner-mob2.png);
+        background-position:48% 35%;
+        opacity: 0.85;
+        filter: alpha(opacity=85);
+    }
+
+    .heading-section1  {
+        position: relative;
+        top:10%;
+    }
+
+    .heading-section1 h1  {
+        font-size: 28px;
+        padding-left: 1%;
+        color: #033561;
+        font-weight: 600;
+    }
+
+    .subHeading-section1  {
+        position: relative;
+        top:16%;
+        width: 60%;
+        text-align: justify;
+    }
+
+    .subHeading-section1 h3  {
+        font-size: 24px;
+        padding-left: 2%;
+        color: #02344c;
+        font-weight: 400;
+    }
+
     .whyUs {
         position: relative;
-        top:20%;
+        top:24%;
         visibility: visible;
     }
+
     .whyUs-points  {
-        font-size: 22px;
-        
-        font-weight: lighter;
-        color:#181819;
-        padding-left:6%;
+       font-size: 22px;
+       font-weight: 400;
+       color:#080808;
+       padding-left:4%;
     }
+
     .get-started  {
         position: relative;
-        top:25%;
-        padding-left: 15%;
-       
+        top:33%;
+        padding-left: 18%;
     }
+
     .button-get-started  {
+        font-size: 22px;
+        font-weight: 600;
         background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
-        font-size: 26px;
-        color:#fff;
-        padding: 10px 20px 10px 20px;
-    }*/
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 799px)  {
+    .section1-bg  {
+        background-image: url(../images/index/hero-banner-mob2.png);
+        background-position:48% 35%;
+        opacity: 0.85;
+        filter: alpha(opacity=85);
+    }
+
+    .heading-section1  {
+        position: relative;
+        top:10%;
+    }
+
+    .heading-section1 h1  {
+        font-size: 28px;
+        padding-left: 1%;
+        color: #033561;
+        font-weight: 600;
+    }
+
+    .subHeading-section1  {
+        position: relative;
+        top:16%;
+        width: 60%;
+        text-align: justify;
+    }
+
+    .subHeading-section1 h3  {
+        font-size: 24px;
+        padding-left: 2%;
+        color: #02344c;
+        font-weight: 400;
+    }
+
+    .whyUs {
+        position: relative;
+        top:24%;
+        visibility: visible;
+    }
+
+    .whyUs-points  {
+       font-size: 22px;
+       font-weight: 400;
+       color:#080808;
+       padding-left:4%;
+    }
+
+    .get-started  {
+        position: relative;
+        top:30%;
+        padding-left: 18%;
+    }
+
+    .button-get-started  {
+        font-size: 22px;
+        font-weight: 600;
+        background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
+    }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 810px)  {
+    .section1-bg  {
+        background-image: url(../images/index/hero-banner-mob2.png);
+        background-position:46% 35%;
+        opacity: 0.85;
+        filter: alpha(opacity=85);
+    }
+
+    .heading-section1  {
+        position: relative;
+        top:14%;
+    }
+
+    .heading-section1 h1  {
+        font-size: 28px;
+        padding-left: 1%;
+        color: #033561;
+        font-weight: 600;
+    }
+
+    .subHeading-section1  {
+        position: relative;
+        top:20%;
+        width: 60%;
+        text-align: justify;
+    }
+
+    .subHeading-section1 h3  {
+        font-size: 24px;
+        padding-left: 2%;
+        color: #02344c;
+        font-weight: 400;
+    }
+
+    .whyUs {
+        position: relative;
+        top:27%;
+        visibility: visible;
+    }
+
+    .whyUs-points  {
+       font-size: 22px;
+       font-weight: 400;
+       color:#080808;
+       padding-left:4%;
+    }
+
+    .get-started  {
+        position: relative;
+        top:35%;
+        padding-left: 18%;
+    }
+
+    .button-get-started  {
+        font-size: 22px;
+        font-weight: 600;
+        background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
+    }
+
+}
+
+@media screen and (min-width: 960px) and (max-width: 970px)  {
+    .section1-bg  {
+        background-image: url(../images/index/hero-banner-mob2.png);
+        background-position:37% 35%;
+        opacity: 0.85;
+        filter: alpha(opacity=85);
+    }
+
+    .heading-section1  {
+        position: relative;
+        top:17%;
+    }
+
+    .heading-section1 h1  {
+        font-size: 28px;
+        padding-left: 1%;
+        color: #033561;
+        font-weight: 600;
+    }
+
+    .subHeading-section1  {
+        position: relative;
+        top:23%;
+        width: 60%;
+        text-align: justify;
+    }
+
+    .subHeading-section1 h3  {
+        font-size: 24px;
+        padding-left: 2%;
+        color: #02344c;
+        font-weight: 400;
+    }
+
+    .whyUs {
+        position: relative;
+        top:30%;
+        visibility: visible;
+    }
+
+    .whyUs-points  {
+       font-size: 22px;
+       font-weight: 400;
+       color:#080808;
+       padding-left:4%;
+    }
+
+    .get-started  {
+        position: relative;
+        top:38%;
+        padding-left: 18%;
+    }
+
+    .button-get-started  {
+        font-size: 22px;
+        font-weight: 600;
+        background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
+    }
+
+}
+
+@media screen and (min-width: 1024px ) and (max-width: 1200px)  {
+    .section1-bg  {
+            background-image: url(../images/index/hero-banner-mob.png);
+            background-repeat: no-repeat;
+            background-position:33% 23%;
+            background-size:inherit;
+            height: 650px;
+            opacity: 0.95;
+        }
+    
+        .heading-section1  {
+            position: relative;
+            top:12%;
+            text-align: justify;
+            width: 100%;
+        }
+    
+        .heading-section1 h1  {
+            font-size: 42px;
+            font-family: 'Lato',sans-serif;
+            font-weight: 400;
+            color:#4d7194;
+            margin-bottom: 0;
+            padding-left: 5%;
+        }
+    
+        .subHeading-section1  {
+            position: relative;
+            top:18%;
+            width: 100%;
+            text-align: justify;
+        }
+    
+        .subHeading-section1 h3  {
+            font-size: 27px;
+            font-family: 'Lato',sans-serif;
+            font-weight: 400;
+            color:#0a508c;
+            padding-left: 5%;
+        }
+    
+        .whyUs {
+            position: relative;
+            top:26%;
+            visibility: visible;
+        }
+    
+        .whyUs-points  {
+           font-size: 22px;
+           font-weight: lighter;
+           color:#181819;
+           padding-left:6%;
+        }
+    
+        .get-started  {
+            position: relative;
+            top:32%;
+            padding-left: 18%;
+        }
+    
+        .button-get-started  {
+            background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
+            font-size: 26px;
+            font-weight: 600;
+            color:#fff;
+            padding: 10px 20px 10px 20px;
+        }
+    
+}
+
+@media screen and (min-width: 1280px ) and (max-width: 1290px)  {
+    .section1-bg  {
+            background-image: url(../images/index/hero-banner-mob.png);
+            background-repeat: no-repeat;
+            background-position:0% 23%;
+            background-size:inherit;
+            height: 650px;
+            opacity: 0.95;
+        }
+    
+        .heading-section1  {
+            position: relative;
+            top:12%;
+            text-align: justify;
+            width: 100%;
+        }
+    
+        .heading-section1 h1  {
+            font-size: 42px;
+            font-family: 'Lato',sans-serif;
+            font-weight: 400;
+            color:#4d7194;
+            margin-bottom: 0;
+            padding-left: 5%;
+        }
+    
+        .subHeading-section1  {
+            position: relative;
+            top:18%;
+            width: 100%;
+            text-align: justify;
+        }
+    
+        .subHeading-section1 h3  {
+            font-size: 27px;
+            font-family: 'Lato',sans-serif;
+            font-weight: 400;
+            color:#0a508c;
+            padding-left: 5%;
+        }
+    
+        .whyUs {
+            position: relative;
+            top:26%;
+            visibility: visible;
+        }
+    
+        .whyUs-points  {
+           font-size: 22px;
+           font-weight: lighter;
+           color:#181819;
+           padding-left:6%;
+        }
+    
+        .get-started  {
+            position: relative;
+            top:32%;
+            padding-left: 18%;
+        }
+    
+        .button-get-started  {
+            background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
+            font-size: 26px;
+            font-weight: 600;
+            color:#fff;
+            padding: 10px 20px 10px 20px;
+        }
+    
+}
+
+@media screen and (min-width: 1366px ) and (max-width: 1380px)  {
+    .section1-bg  {
+            background-image: url(../images/index/hero-banner-mob.png);
+            background-repeat: no-repeat;
+            background-position:1% 23%;
+            background-size:inherit;
+            height: 650px;
+            opacity: 0.95;
+        }
+    
+        .heading-section1  {
+            position: relative;
+            top:12%;
+            text-align: justify;
+            width: 100%;
+        }
+    
+        .heading-section1 h1  {
+            font-size: 42px;
+            font-family: 'Lato',sans-serif;
+            font-weight: 400;
+            color:#4d7194;
+            margin-bottom: 0;
+            padding-left: 5%;
+        }
+    
+        .subHeading-section1  {
+            position: relative;
+            top:18%;
+            width: 100%;
+            text-align: justify;
+        }
+    
+        .subHeading-section1 h3  {
+            font-size: 27px;
+            font-family: 'Lato',sans-serif;
+            font-weight: 400;
+            color:#0a508c;
+            padding-left: 5%;
+        }
+    
+        .whyUs {
+            position: relative;
+            top:26%;
+            visibility: visible;
+        }
+    
+        .whyUs-points  {
+           font-size: 22px;
+           font-weight: lighter;
+           color:#181819;
+           padding-left:6%;
+        }
+    
+        .get-started  {
+            position: relative;
+            top:32%;
+            padding-left: 18%;
+        }
+    
+        .button-get-started  {
+            background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
+            font-size: 26px;
+            font-weight: 600;
+            color:#fff;
+            padding: 10px 20px 10px 20px;
+        }  
 }
 
