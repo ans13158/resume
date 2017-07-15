@@ -126,15 +126,21 @@ body {
     padding: 10px 20px 10px 20px;
 }
 
+.button-get-started:hover  {
+     color: #fff;
+     box-shadow: 0 -10px 1px -7px #376ebe inset;
+}
+
 .template-display  {
-    margin-top: -8%;
+    margin-top: 0%;
     margin-bottom: 10%;
 }
 
 .template-heading  {
-    margin-left: auto;
+  /*  margin-left: auto;
     margin-right: auto;
-    padding-left: 20%;
+    padding-left: 20%;*/
+    text-align: center;
 }
 
 .template-heading h1  {
@@ -143,7 +149,7 @@ body {
 }
 
 .template-subheading  {
-    margin-top: 2%;
+    /*margin-top: 0%;*/
     padding-left: auto;
     padding-right: auto;
     text-align: center;
@@ -163,15 +169,16 @@ body {
     background-color:#fff;
     padding-left: 50px;
     padding-right: 30px;
-    padding-top: 2%;
+    padding-top: 12%;
     height: 100%;
+    /*margin-top: 5%;*/
 }
 
 .row-small-templates-2  {
     padding-bottom: 10%;
     background-color:#fff;
-    padding-left: 50px;
-    padding-right: 30px;
+    padding-left: 60px;
+    padding-right: 50px;
     padding-top: 2%;
     height: 100%;
 }
@@ -293,6 +300,78 @@ body {
         color:#fff;
         padding: 10px 20px 10px 20px;
     }
+
+    .template-display  {
+        margin-top: -22%;
+    }
+
+    .template-heading  {
+        text-align: justify;
+    }
+
+    .template-subheading  {
+        text-align: justify;
+        margin-top: 10%;
+    }
+
+    .row-large-templates  {
+        margin-top: -1%;
+    }
+
+    .template-heading h1 { 
+        font-size: 32px;
+     }
+
+     .template-subheading  {
+        display: none;
+     }
+
+    .template-large  {
+        margin-bottom: 5%;
+        padding-left: initial;
+    }
+
+    .template-img  {
+        height: 250px;
+        width: 250px;
+    }
+
+    .template-name  {
+        width: 100%;
+        margin-top: -5%;
+    }
+
+    .row-small-templates  {
+        padding-right: 42px;
+        padding-left: 49px;
+    } 
+
+    .template-small  {
+        padding-left: initial;
+    }
+       
+    .smaller-template-img  {
+        height: 250px;
+        width: 250px;
+    }
+
+    .small-template-name  {
+        width: 100%;
+    }
+
+    .small-template-name h4  {
+        font-size: 24px;
+    }
+
+    .row-small-templates-2  {
+        display: none;
+    }
+
+    .view-all-button  {
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 0%;
+    }
 }
 
 @media screen and (min-width: 360px) and (max-width: 374px)  {
@@ -338,6 +417,77 @@ body {
     .button-get-started  {
         font-size: 22px;
         font-weight: 600;
+    }
+    .template-display  {
+        margin-top: -22%;
+    }
+
+    .template-heading  {
+        text-align: justify;
+    }
+
+    .template-subheading  {
+        text-align: justify;
+        margin-top: 10%;
+    }
+
+    .row-large-templates  {
+        margin-top: -1%;
+    }
+
+    .template-heading h1 { 
+        font-size: 32px;
+     }
+
+     .template-subheading  {
+        display: none;
+     }
+
+    .template-large  {
+        margin-bottom: 5%;
+        padding-left: initial;
+    }
+
+    .template-img  {
+        height: 250px;
+        width: 250px;
+    }
+
+    .template-name  {
+        width: 100%;
+        margin-top: -5%;
+    }
+
+    .row-small-templates  {
+        padding-right: 42px;
+        padding-left: 49px;
+    } 
+
+    .template-small  {
+        padding-left: initial;
+    }
+       
+    .smaller-template-img  {
+        height: 250px;
+        width: 250px;
+    }
+
+    .small-template-name  {
+        width: 100%;
+    }
+
+    .small-template-name h4  {
+        font-size: 24px;
+    }
+
+    .row-small-templates-2  {
+        display: none;
+    }
+
+    .view-all-button  {
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 0%;
     }
 }
 
@@ -386,6 +536,78 @@ body {
         font-weight: 600;
     }
 
+    .template-display  {
+        margin-top: -22%;
+    }
+
+    .template-heading  {
+        text-align: justify;
+    }
+
+    .template-subheading  {
+        text-align: justify;
+        margin-top: 10%;
+    }
+
+    .row-large-templates  {
+        margin-top: -1%;
+    }
+
+    .template-heading h1 { 
+        font-size: 32px;
+     }
+
+     .template-subheading  {
+        display: none;
+     }
+
+    .template-large  {
+        margin-bottom: 5%;
+        padding-left: 18px;
+    }
+
+    .template-img  {
+        height: 250px;
+        width: 250px;
+    }
+
+    .template-name  {
+        width: 94%;
+        margin-top: -5%;
+    }
+
+    .row-small-templates  {
+        padding-right: 42px;
+        padding-left: 49px;
+    } 
+
+    .template-small  {
+        padding-left: 18px;
+    }
+       
+    .smaller-template-img  {
+        height: 250px;
+        width: 250px;
+    }
+
+    .small-template-name  {
+        width: 94%;
+    }
+
+    .small-template-name h4  {
+        font-size: 24px;
+    }
+
+    .row-small-templates-2  {
+        display: none;
+    }
+
+    .view-all-button  {
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+
 }
 
 @media screen and (min-width: 412px) and (max-width: 480px)  {
@@ -431,6 +653,78 @@ body {
     .button-get-started  {
         font-size: 22px;
         font-weight: 600;
+    }
+
+     .template-display  {
+        margin-top: -22%;
+    }
+
+    .template-heading  {
+        text-align: justify;
+    }
+
+    .template-subheading  {
+        text-align: justify;
+        margin-top: 10%;
+    }
+
+    .row-large-templates  {
+        margin-top: -1%;
+    }
+
+    .template-heading h1 { 
+        font-size: 32px;
+     }
+
+     .template-subheading  {
+        display: none;
+     }
+
+    .template-large  {
+        margin-bottom: 5%;
+        padding-left: 12px;
+    }
+
+    .template-img  {
+        height: 300px;
+        width: 300px;
+    }
+
+    .template-name  {
+        width: 94%;
+        margin-top: -5%;
+    }
+
+    .row-small-templates  {
+        padding-right: 42px;
+        padding-left: 49px;
+    } 
+
+    .template-small  {
+        padding-left: 12px;
+    }
+       
+    .smaller-template-img  {
+        height: 300px;
+        width: 300px;
+    }
+
+    .small-template-name  {
+        width: 94%;
+    }
+
+    .small-template-name h4  {
+        font-size: 24px;
+    }
+
+    .row-small-templates-2  {
+        display: none;
+    }
+
+    .view-all-button  {
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 0%;
     }
 }
 
@@ -645,11 +939,11 @@ body {
 
     .heading-section1  {
         position: relative;
-        top:10%;
+        top:13%;
     }
 
     .heading-section1 h1  {
-        font-size: 28px;
+        font-size: 32px;
         padding-left: 1%;
         color: #033561;
         font-weight: 600;
@@ -657,13 +951,13 @@ body {
 
     .subHeading-section1  {
         position: relative;
-        top:16%;
+        top:22%;
         width: 60%;
         text-align: justify;
     }
 
     .subHeading-section1 h3  {
-        font-size: 24px;
+        font-size: 26px;
         padding-left: 2%;
         color: #02344c;
         font-weight: 400;
@@ -671,7 +965,7 @@ body {
 
     .whyUs {
         position: relative;
-        top:24%;
+        top:30%;
         visibility: visible;
     }
 
@@ -684,13 +978,14 @@ body {
 
     .get-started  {
         position: relative;
-        top:30%;
-        padding-left: 18%;
+        top:36%;
+        padding-left: 8%;
     }
 
     .button-get-started  {
-        font-size: 22px;
+        font-size: 28px;
         font-weight: 600;
+        padding: 10px 40px 10px 40px;
         background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
     }
 
@@ -755,6 +1050,11 @@ body {
         background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
     }
 
+    .button-get-started:hover  {
+            color: #fff;
+            box-shadow: 0 -10px 1px -7px #376ebe inset;
+        }
+
 }
 
 @media screen and (min-width: 960px) and (max-width: 970px)  {
@@ -816,21 +1116,26 @@ body {
         background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
     }
 
+    .button-get-started:hover  {
+            color: #fff;
+            box-shadow: 0 -10px 1px -7px #376ebe inset;
+        }
+
 }
 
 @media screen and (min-width: 1024px ) and (max-width: 1200px)  {
     .section1-bg  {
             background-image: url(../images/index/hero-banner-mob.png);
             background-repeat: no-repeat;
-            background-position:33% 23%;
-            background-size:inherit;
-            height: 650px;
+            background-position:2% 23%;
+            background-size:130% 600px;
+            /*height: 650px;*/
             opacity: 0.95;
         }
     
         .heading-section1  {
             position: relative;
-            top:12%;
+            top:18%;
             text-align: justify;
             width: 100%;
         }
@@ -846,7 +1151,7 @@ body {
     
         .subHeading-section1  {
             position: relative;
-            top:18%;
+            top:24%;
             width: 100%;
             text-align: justify;
         }
@@ -861,7 +1166,7 @@ body {
     
         .whyUs {
             position: relative;
-            top:26%;
+            top:32%;
             visibility: visible;
         }
     
@@ -874,16 +1179,21 @@ body {
     
         .get-started  {
             position: relative;
-            top:32%;
-            padding-left: 18%;
+            top:38%;
+            padding-left: 10%;
         }
     
         .button-get-started  {
             background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
-            font-size: 26px;
+            font-size: 30px;
             font-weight: 600;
             color:#fff;
-            padding: 10px 20px 10px 20px;
+            padding: 10px 40px 10px 40px;
+        }
+
+        .button-get-started:hover  {
+            color: #fff;
+            box-shadow: 0 -10px 1px -7px #376ebe inset;
         }
     
 }
@@ -893,14 +1203,14 @@ body {
             background-image: url(../images/index/hero-banner-mob.png);
             background-repeat: no-repeat;
             background-position:0% 23%;
-            background-size:inherit;
-            height: 650px;
+            background-size:130% 600px;
+            /*height: 650px;*/
             opacity: 0.95;
         }
     
         .heading-section1  {
             position: relative;
-            top:12%;
+            top:18%;
             text-align: justify;
             width: 100%;
         }
@@ -916,13 +1226,13 @@ body {
     
         .subHeading-section1  {
             position: relative;
-            top:18%;
+            top:24%;
             width: 100%;
             text-align: justify;
         }
     
         .subHeading-section1 h3  {
-            font-size: 27px;
+            font-size: 30px;
             font-family: 'Lato',sans-serif;
             font-weight: 400;
             color:#0a508c;
@@ -931,7 +1241,7 @@ body {
     
         .whyUs {
             position: relative;
-            top:26%;
+            top:34%;
             visibility: visible;
         }
     
@@ -944,8 +1254,8 @@ body {
     
         .get-started  {
             position: relative;
-            top:32%;
-            padding-left: 18%;
+            top:40%;
+            padding-left: 10%;
         }
     
         .button-get-started  {
@@ -953,24 +1263,28 @@ body {
             font-size: 26px;
             font-weight: 600;
             color:#fff;
-            padding: 10px 20px 10px 20px;
+            padding: 10px 40px 10px 40px;
+        }
+        .button-get-started:hover  {
+            color: #fff;
+            box-shadow: 0 -10px 1px -7px #376ebe inset;
         }
     
 }
 
-@media screen and (min-width: 1366px ) and (max-width: 1380px)  {
+@media screen and (min-width: 1366px )  {
     .section1-bg  {
             background-image: url(../images/index/hero-banner-mob.png);
             background-repeat: no-repeat;
             background-position:1% 23%;
-            background-size:inherit;
-            height: 650px;
+            background-size:130% 600px;
+            /*height: 650px;*/
             opacity: 0.95;
         }
     
         .heading-section1  {
             position: relative;
-            top:12%;
+            top:14%;
             text-align: justify;
             width: 100%;
         }
@@ -986,7 +1300,7 @@ body {
     
         .subHeading-section1  {
             position: relative;
-            top:18%;
+            top:24%;
             width: 100%;
             text-align: justify;
         }
@@ -1001,7 +1315,7 @@ body {
     
         .whyUs {
             position: relative;
-            top:26%;
+            top:32%;
             visibility: visible;
         }
     
@@ -1014,16 +1328,21 @@ body {
     
         .get-started  {
             position: relative;
-            top:32%;
-            padding-left: 18%;
+            top:38%;
+            padding-left: 10%;
         }
     
         .button-get-started  {
             background: linear-gradient(to bottom, #5296f6 0%,#4281d7 100%);
-            font-size: 26px;
+            font-size:30px;
             font-weight: 600;
             color:#fff;
-            padding: 10px 20px 10px 20px;
+            padding: 10px 40px 10px 40px;
         }  
+        .button-get-started:hover  {
+            color: #fff;
+            box-shadow: 0 -10px 1px -7px #376ebe inset;
+        }
+
 }
 
