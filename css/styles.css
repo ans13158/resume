@@ -35,6 +35,7 @@ body {
     margin-bottom: 0;
     font-family: 'Tangerine', sans-serif;
     padding-top: 20px;
+    /*padding-right: 20px;*/
 }
 
 .navbar-nav>li>a:hover {
@@ -48,6 +49,10 @@ body {
     color: #000;
     background-color: #0d557d !important;
     height: 62px;
+}
+
+.navbar-right  {
+    margin-right: 0;
 }
 
 .section1 {
@@ -119,6 +124,114 @@ body {
     font-weight: 600;
     color:#fff;
     padding: 10px 20px 10px 20px;
+}
+
+.template-display  {
+    margin-top: -8%;
+    margin-bottom: 10%;
+}
+
+.template-heading  {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+}
+
+.template-heading h1  {
+    font-size: 36px;
+    color: #31708f;
+}
+
+.template-subheading  {
+    margin-top: 2%;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+
+.template-subheading h3  {
+    font-size: 24px;
+    color: #337AB6;
+}
+
+.template-large  {
+    margin-bottom: 0%;
+}
+
+.row-large-templates  {
+    padding-bottom: 10%;
+    background-color:#fff;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 2%;
+    height: 100%;
+}
+
+.row-small-templates-2  {
+    padding-bottom: 10%;
+    background-color:#fff;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 2%;
+    height: 100%;
+}
+
+.template-img  {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 300px;
+    width: 300px;
+    padding:0;
+}
+.template-name  {
+    text-align: center;
+    width: 80%;
+}
+
+.row-small-templates  {
+    padding-bottom: 10%;
+    background-color:#fff;
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-top: 2%;
+}
+
+.template-small  {
+    padding-right: 0%;
+    margin-top: 3%;
+}
+
+.smaller-template-img  {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 200px;
+    width: 200px;
+    padding:0;
+}
+
+.small-template-name  {
+    text-align: center;
+    width: 68%;
+}
+
+.view-all-button  {
+    margin-top: 3%;
+    margin-left: 40%;
+    /*padding-right: auto;*/
+}
+
+.view-all  {
+    padding: 10px 15px 10px 15px;
+    background: #4281d7;
+    color : white;
+    font-family: 'Tangerine', sans-serif;
+    font-size: 22px; 
+}
+
+.view-all:hover  {
+    color:#fff;
 }
 
 @media screen and (min-width: 320px) and (max-width: 359px)  {

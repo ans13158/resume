@@ -1,8 +1,86 @@
 <!--Links all stylesheets and scripts; contains header -->
 <% include layout %>
 
-    <!--Section 1 : Contains info about options available in this site  -->
+    <!--Section 1 : Contains intro sort of something for this site -->
     <div class="container-fluid section1">
+        <div class="row">
+            <div class="section1-bg">
+                <div class="col-md-12 col-xs-12 col-sm-12 heading-section1">
+                    <h1 class="sec1-heading ">Your Resume says a lot about you!</h1>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 subHeading-section1">
+                    <h3 class="sec1-subHeading ">We will make sure that your's stands out from others</h3>
+                </div>
+
+                <div class="col-md-12 col-xs-12 col-sm-12 whyUs">
+                    <ul class="whyUs-points">
+                        <li><span class="fa fa-circle"></span>Choose from a large variety of templates</li>
+                        <li><span class="fa fa-circle"></span>Fill in your details</li>
+                        <li><span class="fa fa-circle"></span>Within minutes, get an outstanding resume</li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 get-started">
+                    <a href="" class="button-get-started btn ">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Section 1 : Contains ntro sort of something for this site -->
+
+    <!-- Displays few available templates -->
+    <div class="container-fluid template-display">
+        <div class="row">
+            <div class="template-heading">
+                <h1>Choose from the most recommended resume formats</h1>
+            </div>
+            <div class="template-subheading">
+                <h3>From a variety of resume formats recommended and loved by the industry, choose the one which suits you the most.</h3>
+            </div>
+            <div class="row-large-templates">
+                <% for (var i=0;i<3;i++)  { %>
+                    <div class="col-md-4 col-sm-12 col-xs-12 template-large">
+                        <img src="images/resumes/<%= 1 %>.svg" class="img img-responsive template-img">
+                        <div class="template-name">
+                            <h3>Farzi Template</h3>
+                        </div>
+                    </div>
+                    <% } %>
+            </div>
+
+            <div class="row-small-templates">
+                <% for (var i=0;i<4;i++)  { %>
+                    <div class="col-md-3 col-sm-6 col-xs-12 template-small">
+                        <img src="images/resumes/<%= 2 %>.svg" class="img img-responsive smaller-template-img">
+                        <div class="small-template-name">
+                            <h4>Nakli Template</h4>
+                        </div>
+                    </div>
+                    <% } %>
+            </div>
+            <br>
+            <div class="row-small-templates-2">
+                <% for (var i=0;i<4;i++)  { %>
+                    <div class="col-md-3 col-sm-6 col-xs-12 template-small">
+                        <img src="images/resumes/<%= 3 %>.svg" class="img img-responsive smaller-template-img">
+                        <div class="small-template-name">
+                            <h4>Ainwayi Template</h4>
+                        </div>
+                    </div>
+                    <% } %>
+            </div>
+            </div>
+            <div class="view-all-button">
+                <a href="" class="view-all btn ">View All Templates</a>
+            </div>
+ 
+        </div>           
+    </div>
+    <!-- Displays few available templates -->
+
+    <!--Section 1 : Contains intro sort of something for this site -->
+    <!--  <div class="container-fluid section1">
         <div class="row">
             <div class="section1-bg">
                 <div class="col-md-12 col-xs-12 col-sm-12 heading-section1">
@@ -26,6 +104,5 @@
                     </div>
             </div>
         </div>
-    </div>
-
-    <!--Section 1 : Contains info about options available in this site
+    </div> -->
+    <!--Section 1 : Contains ntro sort of something for this site -->
