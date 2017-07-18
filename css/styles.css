@@ -307,9 +307,9 @@ body {
 }
 
 .view-more-tips  {
-    margin-left: 42%;
+    padding-left: 42%;
     color: white;
-    margin-top: 32%;
+    padding-top: 2%;
     /*padding: 10px 40px 10px 40px;*/
 
 }
@@ -329,6 +329,34 @@ body {
     background: #4281d7;
     padding: 10px 30px 10px 30px;    
 }
+
+/*For all devices smaller than  tablet*/
+@media screen and (max-width: 768px)  {
+    .tip1  {
+        width:100%;
+        padding-left: 5%;
+    }
+     
+     .tip2  {
+        width:100%;
+        padding-left: 5%;
+    }
+
+     .tip3  {
+        width:100%;
+        padding-left: 5%;
+        padding-bottom: 10%;
+    }
+
+    .view-more-tips  {
+        text-align: center;
+        padding-left: 4%;
+
+        /*width: 100%;
+        /*background: #f9f9f9 no-repeat center; */
+    }
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 359px) {
     .section1-bg {
@@ -1248,6 +1276,11 @@ body {
     .button-get-started:hover {
         color: #fff;
         box-shadow: 0 -10px 1px -7px #376ebe inset;
+    }
+    .view-more-tips  {
+        padding-left: 38%;
+        color: white;
+        padding-top: 2%;
     }
 }
 
