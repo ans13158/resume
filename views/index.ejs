@@ -42,19 +42,47 @@
             <div class="row-large-templates">
                 <!-- <h1>The Most Sort After Templates</h1> -->
                 <% for (var i=0;i<3;i++)  { %>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 template-large">
-                        <img src="images/resumes/<%= 1 %>.svg" class="img img-responsive template-img">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 template-large" >
+                        <div class="flashcard-<%=i%>" onmouseenter = "flip(<%=i%>, '.flashcard-<%=i%>', 'flipped')" onmouseleave="backFlip(<%=i%>, 'flipped', '.flashcard-<%=i%>')">
+                            <img src="images/resumes/<%= 1 %>.svg" class="img img-responsive template-img front" >
+                       
+                            <div class="back">
+                                <h2>Farzi Template</h2>
+                                <div class="desc1">
+                                    <p>Template<%=i%>Template<%=i%>Template<%=i%>Template<%=i%></p>
+                                    <p>kdsskaldjlksajdkaskajd</p>
+                                    <p>adnasdmad,mnasldnasmdaldj</p>
+                                    
+                                </div>    
+                                <button class="back-btn-preview btn btn-primary">Preview</button> 
+                                <button class="back-btn-select btn btn-primary">Select</button>  
+                            </div>  
+                        </div>    
                         <div class="template-name">
                             <h3>Farzi Template</h3>
                         </div>
+                        
                     </div>
                     <% } %>
             </div>
 
             <div class="row-small-templates">
                 <% for (var i=0;i<4;i++)  { %>
-                    <div class="col-lg-3s col-md-3 col-sm-4 col-xs-12 template-small">
-                        <img src="images/resumes/<%= 2 %>.svg" class="img img-responsive smaller-template-img">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 template-small">
+                        <div class="small-flashcard-<%=i%>" onmouseenter = "flip(<%=i%>, '.small-flashcard-<%=i%>', 'small-flipped')" onmouseleave="backFlip(<%=i%>, 'small-flipped', '.small-flashcard-<%=i%>')">
+                            <img src="images/resumes/<%= 2 %>.svg" class="img img-responsive smaller-template-img small-front" >
+                       
+                            <div class="small-back">
+                                <h2>Nakli Template</h2>
+                                <div class="small-desc1">
+                                    <p>Template<%=i%>Template<%=i%>Template<%=i%>Template<%=i%></p>
+                                    <p>kdsskaldjlksajdkaskajd</p>
+                                   
+                                </div>    
+                                <button class="small-back-btn-preview btn btn-primary">Preview</button> 
+                                <button class="small-back-btn-select btn btn-primary">Select</button>  
+                            </div>  
+                        </div>    
                         <div class="small-template-name">
                             <h4>Nakli Template</h4>
                         </div>
@@ -65,7 +93,20 @@
             <div class="row-small-templates-2">
                 <% for (var i=0;i<4;i++)  { %>
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 template-small">
-                        <img src="images/resumes/<%= 3 %>.svg" class="img img-responsive smaller-template-img">
+                       <div class="smallest-flashcard-<%=i%>" onmouseenter = "flip(<%=i%>, '.smallest-flashcard-<%=i%>', 'smallest-flipped')" onmouseleave="backFlip(<%=i%>, 'smallest-flipped', '.smallest-flashcard-<%=i%>')">
+                            <img src="images/resumes/<%= 2 %>.svg" class="img img-responsive smaller-template-img smallest-front" >
+                       
+                            <div class="smallest-back">
+                                <h2>Ainwayi Template</h2>
+                                <div class="small-desc1">
+                                    <p>Template<%=i%>Template<%=i%>Template<%=i%>Template<%=i%></p>
+                                    <p>kdsskaldjlksajdkaskajd</p>
+                                   
+                                </div>    
+                                <button class="small-back-btn-preview btn btn-primary">Preview</button> 
+                                <button class="small-back-btn-select btn btn-primary">Select</button>  
+                            </div>  
+                        </div>    
                         <div class="small-template-name">
                             <h4>Ainwayi Template</h4>
                         </div>

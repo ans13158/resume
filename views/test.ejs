@@ -1,0 +1,55 @@
+<% include  layout %>
+
+<style type="text/css">
+	/*.stage {
+  -webkit-perspective: 1000; 
+}*/
+
+.flashcard {
+  height: 300px;  
+  width: 500px; 
+  margin: 10% auto;
+  border: 1px solid gray; 
+  box-shadow: 2px 2px 2px #000;
+  -webkit-transform-style: preserve-3d;  
+  transition: all 0.3s;               
+  -webkit-transition: all 0.3s;
+}
+
+.flipped, .back {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg); 
+}
+
+.front, .back {
+  height: 300px;          
+  width: 500px;
+  position: absolute;    
+  text-align: center;   
+  -webkit-backface-visibility: hidden;       
+}
+
+.front p, .back p {
+  margin-top: 25%;       
+  font-size: 3em;
+}
+</style>
+
+<div class="stage">
+ 	 <div class="flashcard" onclick="flip();">
+		    <div class="front">
+		     <p>1</p>
+		  </div>
+		  <div class="back">
+		   <p>2</p>
+		  </div>
+	 </div>  
+ </div>
+
+ <script>
+ 	
+  function flip() {
+    $('.flashcard').addClass('flipped');
+  }
+
+ </script>
